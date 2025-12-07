@@ -7,6 +7,9 @@ GoogleカレンダーのイベントからNotionの議事録ページを自動�
 
 会議の予定作成時に「議事録作成」をONにすると、バックグラウンドでNotionデータベースにページを作成し、そのURLをGoogleカレンダーの説明欄に自動追記します。
 
+## Demo
+https://github.com/user-attachments/assets/02153ffc-0710-478e-ab2b-26ffaba65bbe
+
 ### 主な機能
 
 1. **UI拡張**: Googleカレンダーの予定作成ダイアログに、議事録作成用のトグルスイッチ（`#minutes_on`タグ挿入用）を追加。

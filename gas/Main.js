@@ -9,7 +9,7 @@ function syncCalendarToNotion() {
   }
 
   const now = new Date();
-  const until = new Date(now.getTime() + 24 * 60 * 60 * 1000); // 24時間先まで
+  const until = new Date(now.getTime() + (24 * 60 * 60 * 1000) * 30 * 6); // 6ヶ月先まで
   const events = cal.getEvents(now, until);
   Logger.log('events count: ' + events.length);
 

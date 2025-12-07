@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Sync Google Calendar to Notion Minutes Toggle",
+  "description": "Googleカレンダーの説明欄に議事録作成タグ(#minutes_on)を挿入するトグルを追加します。",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://calendar.google.com/*"
+      ],
+      "js": [
+        "content-script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
